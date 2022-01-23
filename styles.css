@@ -180,6 +180,14 @@ div .interest-box {
 }
 
 /* Youtube */
+#youtube {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+}
+
 /* Footer */
 footer {
   background: var(--clr-accent);
